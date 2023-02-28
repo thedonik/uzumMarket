@@ -1,0 +1,18 @@
+.hero {
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+	content: url('../assets/left-arrow.png');
+	color: red;
+	width: 30px;
+	height: 30px;
+}
+
+ul {
+	list-style: none;
+}
