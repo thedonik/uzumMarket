@@ -1,7 +1,7 @@
 
-const elLangSelect = findElement('#language-select');
+import findElement from './findElement.js';
 
-const elLoginBtn = findElement('#login-btn');
+const elLangSelect = findElement('#language-select');
 
 // language
 let lang = localStorage.getItem('lang');
@@ -29,11 +29,6 @@ elLangSelect.addEventListener('change', () => {
 		document.title = 'Интернет магазин';
 	}
 });
-const isLogin = localStorage.getItem('login');
-
-if (!isLogin) {
-	elLoginBtn.textContent = 'Chiqish';
-}
 
 function loginHandler() {
 	if (elLoginBtn.textContent.trim() === 'Kirish') {

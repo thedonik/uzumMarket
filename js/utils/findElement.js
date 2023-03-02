@@ -1,3 +1,3 @@
-function findElement(element, parent = document) {
+export default function findElement(element, parent = document) {
 	return parent.querySelector(element);
 }

@@ -1,5 +1,4 @@
-.hero {
-}
+
 
 html {
 	scroll-behavior: smooth;
@@ -15,4 +14,38 @@ html {
 
 ul {
 	list-style: none;
+}
+
+
+.swiper {
+	overflow: hidden;
+	border-radius: 14px;
+}
+
+.swiper-wrapper {
+	width: 1240px;
+	border-radius: 14px;
+}
+
+
+.swiper-slide img {
+	width: 1240px;
+	border-radius: 14px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 50%;
+	opacity: 0.6;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+	font-size: 20px;
+	font-weight: 500;
+	color: #000;
 }

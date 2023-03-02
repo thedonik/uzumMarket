@@ -1,4 +1,4 @@
-function changeLoading(isLoading) {
+export default function changeLoading(isLoading) {
 	if (isLoading) {
 		loader.style.display = 'block';
 	} else {
